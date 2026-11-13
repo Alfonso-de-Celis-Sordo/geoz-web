@@ -3,11 +3,11 @@
  */
 'use strict';
 
-const BUILD_VERSION = '3cd060b495367b110d7e';
+const BUILD_VERSION = '270dbc15bff4187248ba';
 const APP_BASE = "/geoz-web/";
 const PRECACHE_URLS = [
-  "/geoz-web/assets/index-BjGZIvFa.css",
-  "/geoz-web/assets/index-BTh5ULB2.js",
+  "/geoz-web/assets/index-CLjcivRs.css",
+  "/geoz-web/assets/index-DkmnnHmJ.js",
   "/geoz-web/assets/photos/credits.json",
   "/geoz-web/assets/photos/tera-valles.credit.json",
   "/geoz-web/data/catalog.json",
