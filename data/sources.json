@@ -1,0 +1,63 @@
+{
+  "dataVersion": "ign-wikipedia-classic-2026-11-12",
+  "attribution": "Obra derivada de BDLJE, consulta 2026-11-12, CC BY 4.0 ign.es",
+  "classificationAttribution": "Colaboradores de Wikipedia, Anexo:Comarcas de la provincia de Zamora, revisión 172307624.",
+  "dataLicense": "CC BY-SA 4.0",
+  "comarcaModel": "wikipedia-zamora-classic-12",
+  "comarcaModelLabel": "Comarcas clásicas de Zamora (Wikipedia)",
+  "description": "Las 12 comarcas clásicas y sus 248 municipios, según el anexo de Wikipedia seleccionado para GeoZ. Límites obtenidos uniendo municipios del IGN. No son entidades administrativas oficiales.",
+  "retrievedAt": "2026-11-12",
+  "coordinateReferenceSystem": "OGC:CRS84",
+  "simplification": {
+    "method": "Shapely coverage_simplify",
+    "toleranceMeters": 25,
+    "workingCrs": "EPSG:25830",
+    "coordinateDecimals": 6
+  },
+  "sources": [
+    {
+      "id": "ign",
+      "name": "Instituto Geográfico Nacional · API-Features · Unidades administrativas",
+      "url": "https://api-features.ign.es/collections/administrativeunit/items?f=json&codnut3=ES419&nationallevelname=Municipio&limit=1000",
+      "metadataUrl": "https://api-features.ign.es/collections/administrativeunit?f=html",
+      "retrievedAt": "2026-11-12",
+      "sourceTimestamp": "2026-11-12T15:30:50.293306Z",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+      "sha256": "81774a0c32cf51a20d6dec0bd5801ea417625bb84bee4494dd695b1ad5e64cca",
+      "use": "Geometrías y nombres de los 248 municipios; código INE a partir de nationalcode."
+    },
+    {
+      "id": "wikipedia",
+      "name": "Wikipedia · Anexo:Comarcas de la provincia de Zamora",
+      "url": "https://es.wikipedia.org/wiki/Anexo:Comarcas_de_la_provincia_de_Zamora",
+      "permanentUrl": "https://es.wikipedia.org/w/index.php?title=Anexo:Comarcas_de_la_provincia_de_Zamora&oldid=172307624",
+      "revisionId": 172307624,
+      "revisionTimestamp": "2026-03-02T10:35:00Z",
+      "retrievedAt": "2026-11-12",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Colaboradores de Wikipedia, Anexo:Comarcas de la provincia de Zamora, revisión 172307624.",
+      "sha256Html": "90d2372d31eae11df45a27e7ea6e7d25414b2969fdf0c8b04198219a510d43ba",
+      "use": "248 pares municipio–comarca de los listados de las doce secciones; se excluyen los anejos entre paréntesis.",
+      "extractSha256": "a6e680abffeeb7252a2f6345e4d13cbae2d3688d2ace0bcd08d773b22d0d4715"
+    },
+    {
+      "id": "jcyl",
+      "name": "Junta de Castilla y León · Registro de municipios",
+      "url": "https://analisis.datosabiertos.jcyl.es/api/explore/v2.1/catalog/datasets/registro-de-municipios-de-castilla-y-leon/exports/json?where=provincia%3D%22ZAMORA%22",
+      "retrievedAt": "2026-11-12",
+      "sha256": "8ee122bc592f9fe40b60b7675a0a97b0fd8c1ee115f17c329a51f170f3896a1e",
+      "license": "CC BY 4.0 ES",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.es_ES",
+      "use": "Validación independiente de los 248 códigos INE; no se usa para asignar comarcas."
+    },
+    {
+      "id": "municipal-name-aliases",
+      "name": "Variantes municipales conservadas de la edición inicial",
+      "url": "https://www.diputaciondezamora.es/opencms/provincia/nuestros-ayuntamientos/",
+      "extractSha256": "5ed02e674cd51d9af60d241d7e61a1262924c4652880bf78c3b6002110646b2a",
+      "use": "Solo alias municipales. Ninguna adscripción comarcal de Diputación se usa en esta edición."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+GeoZ · Cartografía de la provincia de Zamora
+Edición: ign-wikipedia-classic-2026-11-12
+
+GEOMETRÍAS MUNICIPALES
+Obra derivada de BDLJE, consulta 2026-11-12, CC BY 4.0 ign.es
+Productor: Instituto Geográfico Nacional de España.
+Licencia de la geometría fuente: Creative Commons Atribución 4.0 Internacional.
+https://creativecommons.org/licenses/by/4.0/
+Condiciones publicadas por IGN:
+https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf
+
+Las geometrías proceden de API-Features del IGN, colección administrativeunit,
+filtrando Municipio y NUTS3 ES419. Se simplificaron las aristas compartidas con
+una tolerancia de 25 metros en EPSG:25830, se reproyectaron a longitud/latitud
+y se redondearon a seis decimales. Los límites de las doce comarcas son la unión
+de los municipios que les asigna el artículo indicado a continuación.
+
+CLASIFICACIÓN EN DOCE COMARCAS CLÁSICAS
+Colaboradores de Wikipedia, «Anexo:Comarcas de la provincia de Zamora».
+Revisión 172307624, editada el 2 de marzo de 2026 a las 10:35 UTC.
+Consulta: 12 de noviembre de 2026.
+Artículo:
+https://es.wikipedia.org/wiki/Anexo:Comarcas_de_la_provincia_de_Zamora
+Enlace permanente a la revisión utilizada:
+https://es.wikipedia.org/w/index.php?title=Anexo:Comarcas_de_la_provincia_de_Zamora&oldid=172307624
+Licencia: Creative Commons Atribución-CompartirIgual 4.0 Internacional.
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Se extrajeron los 248 pares municipio–comarca de las doce listas del artículo.
+Se excluyeron los anejos entre paréntesis, se asociaron los nombres a códigos
+INE y se añadieron alias habituales para escribir. El orden de los capítulos
+es una adaptación para GeoZ. La clasificación no se presenta como una división
+administrativa oficial. No se ha copiado el SVG ilustrativo de Wikipedia.
+
+El extracto, el cruce y la colección geográfica que adapta esta clasificación
+se distribuyen bajo CC BY-SA 4.0, conservando también la atribución IGN de las
+geometrías. Las adaptaciones deben indicar los cambios y respetar esa licencia.
+Esta declaración se refiere a los datos geográficos, no a la licencia del
+código de la aplicación.
+
+NOMBRES ALTERNATIVOS CONSERVADOS
+Fuente de las variantes de 32 municipios: Diputación de Zamora, directorio
+«Nuestros ayuntamientos», consultado el 12 de noviembre de 2026.
+https://www.diputaciondezamora.es/opencms/provincia/nuestros-ayuntamientos/
+Solo se conservan hechos sobre variantes de nombres. Ninguna adscripción
+comarcal de Diputación se usa en esta edición. No se reproducen contactos,
+datos de representantes ni fotografías del directorio. No se afirma que el
+libro de Diputación tenga licencia Creative Commons.
+
+VALIDACIÓN INDEPENDIENTE
+Junta de Castilla y León, Registro de municipios de Castilla y León,
+CC BY 4.0 ES. Se contrastaron los 248 códigos INE municipales.
+https://analisis.datosabiertos.jcyl.es/explore/dataset/registro-de-municipios-de-castilla-y-leon/
+
+Los enlaces, las huellas SHA-256 y los detalles de transformación constan en
+sources.json y catalog.json. Mostrar las atribuciones de IGN y Wikipedia,
+con sus enlaces y licencias, junto al mapa o en créditos accesibles desde él.
+El reconocimiento no implica patrocinio ni validación de GeoZ por las
+instituciones citadas.

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">GeoZ</title>
+  <desc id="desc">Una zeta geométrica de color lima sobre fondo oscuro.</desc>
+  <rect width="512" height="512" fill="#090D16"/>
+  <path d="M83 135V103L103 83H161M351 83H409L429 103V135M429 377V409L409 429H351M161 429H103L83 409V377" fill="none" stroke="#273044" stroke-width="5"/>
+  <path d="M163,158 393,158 382,198 238,328 355,328 343,370 113,370 124,330 268,200 151,200Z" fill="#A794FF" opacity=".7"/>
+  <path d="M155,150 385,150 374,190 230,320 347,320 335,362 105,362 116,322 260,192 143,192Z" fill="#CEFF49"/>
+  <path d="M345 390h39l-8 13h-39z" fill="#A794FF"/>
+</svg>

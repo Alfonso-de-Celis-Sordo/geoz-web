@@ -1,0 +1,2105 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "ign-wikipedia-classic-2026-11-12",
+  "attribution": "Obra derivada de BDLJE, consulta 2026-11-12, CC BY 4.0 ign.es",
+  "classificationAttribution": "Colaboradores de Wikipedia, Anexo:Comarcas de la provincia de Zamora, revisión 172307624.",
+  "dataLicense": "CC BY-SA 4.0",
+  "comarcaModel": "wikipedia-zamora-classic-12",
+  "comarcaModelLabel": "Comarcas clásicas de Zamora (Wikipedia)",
+  "description": "Las 12 comarcas clásicas y sus 248 municipios, según el anexo de Wikipedia seleccionado para GeoZ. Límites obtenidos uniendo municipios del IGN. No son entidades administrativas oficiales.",
+  "retrievedAt": "2026-11-12",
+  "coordinateReferenceSystem": "OGC:CRS84",
+  "simplification": {
+    "method": "Shapely coverage_simplify",
+    "toleranceMeters": 25,
+    "workingCrs": "EPSG:25830",
+    "coordinateDecimals": 6
+  },
+  "province": {
+    "id": "49",
+    "name": "Zamora",
+    "municipalityCount": 248
+  },
+  "municipalityCount": 248,
+  "comarcaCount": 12,
+  "chapterOrder": [
+    "sanabria",
+    "carballeda",
+    "benavente-valles",
+    "tierra-campos",
+    "toro",
+    "guarena",
+    "tierra-vino",
+    "tierra-pan",
+    "tierra-alba",
+    "tabara",
+    "aliste",
+    "sayago"
+  ],
+  "files": {
+    "municipalities": "/data/territories.geojson",
+    "comarcas": "/data/comarcas.geojson"
+  },
+  "comarcas": [
+    {
+      "id": "sanabria",
+      "name": "Sanabria",
+      "comarcaId": "sanabria",
+      "aliases": [],
+      "municipalityCount": 15,
+      "municipalityIds": [
+        "49017",
+        "49050",
+        "49085",
+        "49094",
+        "49100",
+        "49143",
+        "49145",
+        "49154",
+        "49162",
+        "49166",
+        "49174",
+        "49179",
+        "49181",
+        "49189",
+        "49224"
+      ],
+      "order": 1,
+      "areaKm2": 1217.2922,
+      "labelPoint": [
+        -6.717531,
+        42.092676
+      ]
+    },
+    {
+      "id": "carballeda",
+      "name": "La Carballeda",
+      "comarcaId": "carballeda",
+      "aliases": [
+        "Carballeda"
+      ],
+      "municipalityCount": 13,
+      "municipalityIds": [
+        "49048",
+        "49062",
+        "49067",
+        "49097",
+        "49110",
+        "49112",
+        "49120",
+        "49121",
+        "49134",
+        "49139",
+        "49150",
+        "49177",
+        "49262"
+      ],
+      "order": 2,
+      "areaKm2": 781.0618,
+      "labelPoint": [
+        -6.315441,
+        42.0388
+      ]
+    },
+    {
+      "id": "benavente-valles",
+      "name": "Benavente y Los Valles",
+      "comarcaId": "benavente-valles",
+      "aliases": [
+        "Benavente",
+        "Los Valles"
+      ],
+      "municipalityCount": 55,
+      "municipalityIds": [
+        "49004",
+        "49011",
+        "49015",
+        "49018",
+        "49019",
+        "49021",
+        "49025",
+        "49026",
+        "49027",
+        "49028",
+        "49029",
+        "49032",
+        "49033",
+        "49041",
+        "49052",
+        "49057",
+        "49075",
+        "49078",
+        "49079",
+        "49082",
+        "49092",
+        "49105",
+        "49109",
+        "49113",
+        "49116",
+        "49117",
+        "49118",
+        "49128",
+        "49130",
+        "49137",
+        "49159",
+        "49167",
+        "49170",
+        "49171",
+        "49187",
+        "49193",
+        "49199",
+        "49200",
+        "49201",
+        "49203",
+        "49204",
+        "49205",
+        "49206",
+        "49207",
+        "49220",
+        "49225",
+        "49231",
+        "49238",
+        "49243",
+        "49244",
+        "49256",
+        "49257",
+        "49259",
+        "49271",
+        "49272"
+      ],
+      "order": 3,
+      "areaKm2": 1367.3737,
+      "labelPoint": [
+        -5.857497,
+        41.998447
+      ]
+    },
+    {
+      "id": "tierra-campos",
+      "name": "Tierra de Campos",
+      "comarcaId": "tierra-campos",
+      "aliases": [
+        "Campos"
+      ],
+      "municipalityCount": 29,
+      "municipalityIds": [
+        "49020",
+        "49035",
+        "49042",
+        "49043",
+        "49046",
+        "49055",
+        "49091",
+        "49160",
+        "49165",
+        "49168",
+        "49169",
+        "49175",
+        "49185",
+        "49188",
+        "49190",
+        "49192",
+        "49216",
+        "49229",
+        "49232",
+        "49236",
+        "49242",
+        "49246",
+        "49248",
+        "49250",
+        "49252",
+        "49260",
+        "49263",
+        "49266",
+        "49268"
+      ],
+      "order": 4,
+      "areaKm2": 972.3212,
+      "labelPoint": [
+        -5.479091,
+        41.877087
+      ]
+    },
+    {
+      "id": "toro",
+      "name": "Alfoz de Toro",
+      "comarcaId": "toro",
+      "aliases": [
+        "Toro",
+        "Tierra de Toro"
+      ],
+      "municipalityCount": 20,
+      "municipalityIds": [
+        "49002",
+        "49016",
+        "49030",
+        "49076",
+        "49083",
+        "49086",
+        "49107",
+        "49114",
+        "49129",
+        "49147",
+        "49156",
+        "49163",
+        "49219",
+        "49228",
+        "49234",
+        "49235",
+        "49249",
+        "49251",
+        "49267",
+        "49270"
+      ],
+      "order": 5,
+      "areaKm2": 818.213,
+      "labelPoint": [
+        -5.40877,
+        41.526923
+      ]
+    },
+    {
+      "id": "guarena",
+      "name": "La Guareña",
+      "comarcaId": "guarena",
+      "aliases": [
+        "Guareña"
+      ],
+      "municipalityCount": 15,
+      "municipalityIds": [
+        "49013",
+        "49024",
+        "49034",
+        "49040",
+        "49080",
+        "49081",
+        "49093",
+        "49102",
+        "49146",
+        "49191",
+        "49226",
+        "49230",
+        "49239",
+        "49241",
+        "49255"
+      ],
+      "order": 6,
+      "areaKm2": 577.4054,
+      "labelPoint": [
+        -5.484811,
+        41.260441
+      ]
+    },
+    {
+      "id": "tierra-vino",
+      "name": "Tierra del Vino",
+      "comarcaId": "tierra-vino",
+      "aliases": [
+        "Vino",
+        "Tierra de Vino"
+      ],
+      "municipalityCount": 22,
+      "municipalityIds": [
+        "49010",
+        "49038",
+        "49039",
+        "49044",
+        "49054",
+        "49058",
+        "49059",
+        "49061",
+        "49084",
+        "49090",
+        "49096",
+        "49103",
+        "49125",
+        "49127",
+        "49148",
+        "49151",
+        "49158",
+        "49197",
+        "49210",
+        "49245",
+        "49258",
+        "49261"
+      ],
+      "order": 7,
+      "areaKm2": 483.9075,
+      "labelPoint": [
+        -5.68378,
+        41.375275
+      ]
+    },
+    {
+      "id": "tierra-pan",
+      "name": "Tierra del Pan",
+      "comarcaId": "tierra-pan",
+      "aliases": [
+        "Pan",
+        "Tierra de Pan"
+      ],
+      "municipalityCount": 25,
+      "municipalityIds": [
+        "49006",
+        "49007",
+        "49009",
+        "49014",
+        "49022",
+        "49047",
+        "49053",
+        "49056",
+        "49095",
+        "49108",
+        "49119",
+        "49122",
+        "49123",
+        "49132",
+        "49135",
+        "49141",
+        "49142",
+        "49155",
+        "49178",
+        "49186",
+        "49194",
+        "49222",
+        "49227",
+        "49269",
+        "49275"
+      ],
+      "order": 8,
+      "areaKm2": 918.0096,
+      "labelPoint": [
+        -5.75893,
+        41.61321
+      ]
+    },
+    {
+      "id": "tierra-alba",
+      "name": "Tierra de Alba",
+      "comarcaId": "tierra-alba",
+      "aliases": [
+        "Alba"
+      ],
+      "municipalityCount": 8,
+      "municipalityIds": [
+        "49036",
+        "49098",
+        "49099",
+        "49111",
+        "49138",
+        "49153",
+        "49202",
+        "49233"
+      ],
+      "order": 9,
+      "areaKm2": 321.0273,
+      "labelPoint": [
+        -5.999164,
+        41.683637
+      ]
+    },
+    {
+      "id": "tabara",
+      "name": "Tierra de Tábara",
+      "comarcaId": "tabara",
+      "aliases": [
+        "Tábara"
+      ],
+      "municipalityCount": 6,
+      "municipalityIds": [
+        "49063",
+        "49066",
+        "49068",
+        "49133",
+        "49164",
+        "49214"
+      ],
+      "order": 10,
+      "areaKm2": 443.3614,
+      "labelPoint": [
+        -5.949315,
+        41.832824
+      ]
+    },
+    {
+      "id": "aliste",
+      "name": "Aliste",
+      "comarcaId": "aliste",
+      "aliases": [],
+      "municipalityCount": 16,
+      "municipalityIds": [
+        "49003",
+        "49069",
+        "49071",
+        "49087",
+        "49104",
+        "49157",
+        "49172",
+        "49173",
+        "49176",
+        "49184",
+        "49208",
+        "49209",
+        "49223",
+        "49237",
+        "49247",
+        "49273"
+      ],
+      "order": 11,
+      "areaKm2": 1183.7371,
+      "labelPoint": [
+        -6.335798,
+        41.715859
+      ]
+    },
+    {
+      "id": "sayago",
+      "name": "Sayago",
+      "comarcaId": "sayago",
+      "aliases": [],
+      "municipalityCount": 24,
+      "municipalityIds": [
+        "49005",
+        "49008",
+        "49012",
+        "49023",
+        "49031",
+        "49037",
+        "49064",
+        "49065",
+        "49077",
+        "49088",
+        "49101",
+        "49115",
+        "49124",
+        "49126",
+        "49131",
+        "49136",
+        "49149",
+        "49152",
+        "49180",
+        "49183",
+        "49221",
+        "49240",
+        "49264",
+        "49265"
+      ],
+      "order": 12,
+      "areaKm2": 1485.3847,
+      "labelPoint": [
+        -6.088088,
+        41.361134
+      ]
+    }
+  ],
+  "municipalities": [
+    {
+      "id": "49002",
+      "name": "Abezames",
+      "comarcaId": "toro",
+      "aliases": []
+    },
+    {
+      "id": "49003",
+      "name": "Alcañices",
+      "comarcaId": "aliste",
+      "aliases": []
+    },
+    {
+      "id": "49004",
+      "name": "Alcubilla de Nogales",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49005",
+      "name": "Alfaraz de Sayago",
+      "comarcaId": "sayago",
+      "aliases": []
+    },
+    {
+      "id": "49006",
+      "name": "Algodre",
+      "comarcaId": "tierra-pan",
+      "aliases": []
+    },
+    {
+      "id": "49007",
+      "name": "Almaraz de Duero",
+      "comarcaId": "tierra-pan",
+      "aliases": []
+    },
+    {
+      "id": "49008",
+      "name": "Almeida de Sayago",
+      "comarcaId": "sayago",
+      "aliases": []
+    },
+    {
+      "id": "49009",
+      "name": "Andavías",
+      "comarcaId": "tierra-pan",
+      "aliases": []
+    },
+    {
+      "id": "49010",
+      "name": "Arcenillas",
+      "comarcaId": "tierra-vino",
+      "aliases": []
+    },
+    {
+      "id": "49011",
+      "name": "Arcos de la Polvorosa",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49012",
+      "name": "Argañín",
+      "comarcaId": "sayago",
+      "aliases": [
+        "Argañín de Sayago"
+      ]
+    },
+    {
+      "id": "49013",
+      "name": "Argujillo",
+      "comarcaId": "guarena",
+      "aliases": []
+    },
+    {
+      "id": "49014",
+      "name": "Arquillinos",
+      "comarcaId": "tierra-pan",
+      "aliases": []
+    },
+    {
+      "id": "49015",
+      "name": "Arrabalde",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49016",
+      "name": "Aspariegos",
+      "comarcaId": "toro",
+      "aliases": []
+    },
+    {
+      "id": "49017",
+      "name": "Asturianos",
+      "comarcaId": "sanabria",
+      "aliases": []
+    },
+    {
+      "id": "49018",
+      "name": "Ayoó de Vidriales",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49019",
+      "name": "Barcial del Barco",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49020",
+      "name": "Belver de los Montes",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49021",
+      "name": "Benavente",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49022",
+      "name": "Benegiles",
+      "comarcaId": "tierra-pan",
+      "aliases": []
+    },
+    {
+      "id": "49023",
+      "name": "Bermillo de Sayago",
+      "comarcaId": "sayago",
+      "aliases": []
+    },
+    {
+      "id": "49024",
+      "name": "La Bóveda de Toro",
+      "comarcaId": "guarena",
+      "aliases": [
+        "Bóveda de Toro (La)"
+      ]
+    },
+    {
+      "id": "49025",
+      "name": "Bretó",
+      "comarcaId": "benavente-valles",
+      "aliases": [
+        "Bretó de la Ribera"
+      ]
+    },
+    {
+      "id": "49026",
+      "name": "Bretocino",
+      "comarcaId": "benavente-valles",
+      "aliases": [
+        "Bretocino de Valverde"
+      ]
+    },
+    {
+      "id": "49027",
+      "name": "Brime de Sog",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49028",
+      "name": "Brime de Urz",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49029",
+      "name": "Burganes de Valverde",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49030",
+      "name": "Bustillo del Oro",
+      "comarcaId": "toro",
+      "aliases": []
+    },
+    {
+      "id": "49031",
+      "name": "Cabañas de Sayago",
+      "comarcaId": "sayago",
+      "aliases": []
+    },
+    {
+      "id": "49032",
+      "name": "Calzadilla de Tera",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49033",
+      "name": "Camarzana de Tera",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49034",
+      "name": "Cañizal",
+      "comarcaId": "guarena",
+      "aliases": []
+    },
+    {
+      "id": "49035",
+      "name": "Cañizo",
+      "comarcaId": "tierra-campos",
+      "aliases": [
+        "Cañizo de Campos"
+      ]
+    },
+    {
+      "id": "49036",
+      "name": "Carbajales de Alba",
+      "comarcaId": "tierra-alba",
+      "aliases": []
+    },
+    {
+      "id": "49037",
+      "name": "Carbellino",
+      "comarcaId": "sayago",
+      "aliases": [
+        "Carbellino de Sayago"
+      ]
+    },
+    {
+      "id": "49038",
+      "name": "Casaseca de Campeán",
+      "comarcaId": "tierra-vino",
+      "aliases": []
+    },
+    {
+      "id": "49039",
+      "name": "Casaseca de las Chanas",
+      "comarcaId": "tierra-vino",
+      "aliases": []
+    },
+    {
+      "id": "49040",
+      "name": "Castrillo de la Guareña",
+      "comarcaId": "guarena",
+      "aliases": []
+    },
+    {
+      "id": "49041",
+      "name": "Castrogonzalo",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49042",
+      "name": "Castronuevo",
+      "comarcaId": "tierra-campos",
+      "aliases": [
+        "Castronuevo de los Arcos"
+      ]
+    },
+    {
+      "id": "49043",
+      "name": "Castroverde de Campos",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49044",
+      "name": "Cazurra",
+      "comarcaId": "tierra-vino",
+      "aliases": []
+    },
+    {
+      "id": "49046",
+      "name": "Cerecinos de Campos",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49047",
+      "name": "Cerecinos del Carrizal",
+      "comarcaId": "tierra-pan",
+      "aliases": []
+    },
+    {
+      "id": "49048",
+      "name": "Cernadilla",
+      "comarcaId": "carballeda",
+      "aliases": []
+    },
+    {
+      "id": "49050",
+      "name": "Cobreros",
+      "comarcaId": "sanabria",
+      "aliases": []
+    },
+    {
+      "id": "49052",
+      "name": "Coomonte",
+      "comarcaId": "benavente-valles",
+      "aliases": [
+        "Coomonte de la Vega"
+      ]
+    },
+    {
+      "id": "49053",
+      "name": "Coreses",
+      "comarcaId": "tierra-pan",
+      "aliases": []
+    },
+    {
+      "id": "49054",
+      "name": "Corrales del Vino",
+      "comarcaId": "tierra-vino",
+      "aliases": []
+    },
+    {
+      "id": "49055",
+      "name": "Cotanes del Monte",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49056",
+      "name": "Cubillos",
+      "comarcaId": "tierra-pan",
+      "aliases": [
+        "Cubillos del Pan"
+      ]
+    },
+    {
+      "id": "49057",
+      "name": "Cubo de Benavente",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49058",
+      "name": "El Cubo de Tierra del Vino",
+      "comarcaId": "tierra-vino",
+      "aliases": [
+        "Cubo de la Tierra del Vino (El)",
+        "El Cubo de la Tierra del Vino"
+      ]
+    },
+    {
+      "id": "49059",
+      "name": "Cuelgamures",
+      "comarcaId": "tierra-vino",
+      "aliases": []
+    },
+    {
+      "id": "49061",
+      "name": "Entrala",
+      "comarcaId": "tierra-vino",
+      "aliases": []
+    },
+    {
+      "id": "49062",
+      "name": "Espadañedo",
+      "comarcaId": "carballeda",
+      "aliases": []
+    },
+    {
+      "id": "49063",
+      "name": "Faramontanos de Tábara",
+      "comarcaId": "tabara",
+      "aliases": []
+    },
+    {
+      "id": "49064",
+      "name": "Fariza",
+      "comarcaId": "sayago",
+      "aliases": [
+        "Fariza de Sayago"
+      ]
+    },
+    {
+      "id": "49065",
+      "name": "Fermoselle",
+      "comarcaId": "sayago",
+      "aliases": []
+    },
+    {
+      "id": "49066",
+      "name": "Ferreras de Abajo",
+      "comarcaId": "tabara",
+      "aliases": []
+    },
+    {
+      "id": "49067",
+      "name": "Ferreras de Arriba",
+      "comarcaId": "carballeda",
+      "aliases": []
+    },
+    {
+      "id": "49068",
+      "name": "Ferreruela",
+      "comarcaId": "tabara",
+      "aliases": [
+        "Ferreruela de Tábara"
+      ]
+    },
+    {
+      "id": "49069",
+      "name": "Figueruela de Arriba",
+      "comarcaId": "aliste",
+      "aliases": []
+    },
+    {
+      "id": "49071",
+      "name": "Fonfría",
+      "comarcaId": "aliste",
+      "aliases": []
+    },
+    {
+      "id": "49075",
+      "name": "Fresno de la Polvorosa",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49076",
+      "name": "Fresno de la Ribera",
+      "comarcaId": "toro",
+      "aliases": []
+    },
+    {
+      "id": "49077",
+      "name": "Fresno de Sayago",
+      "comarcaId": "sayago",
+      "aliases": []
+    },
+    {
+      "id": "49078",
+      "name": "Friera de Valverde",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49079",
+      "name": "Fuente Encalada",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49080",
+      "name": "Fuentelapeña",
+      "comarcaId": "guarena",
+      "aliases": []
+    },
+    {
+      "id": "49081",
+      "name": "Fuentesaúco",
+      "comarcaId": "guarena",
+      "aliases": []
+    },
+    {
+      "id": "49082",
+      "name": "Fuentes de Ropel",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49083",
+      "name": "Fuentesecas",
+      "comarcaId": "toro",
+      "aliases": []
+    },
+    {
+      "id": "49084",
+      "name": "Fuentespreadas",
+      "comarcaId": "tierra-vino",
+      "aliases": []
+    },
+    {
+      "id": "49085",
+      "name": "Galende",
+      "comarcaId": "sanabria",
+      "aliases": []
+    },
+    {
+      "id": "49086",
+      "name": "Gallegos del Pan",
+      "comarcaId": "toro",
+      "aliases": []
+    },
+    {
+      "id": "49087",
+      "name": "Gallegos del Río",
+      "comarcaId": "aliste",
+      "aliases": []
+    },
+    {
+      "id": "49088",
+      "name": "Gamones",
+      "comarcaId": "sayago",
+      "aliases": []
+    },
+    {
+      "id": "49090",
+      "name": "Gema",
+      "comarcaId": "tierra-vino",
+      "aliases": [
+        "Gema del Vino"
+      ]
+    },
+    {
+      "id": "49091",
+      "name": "Granja de Moreruela",
+      "comarcaId": "tierra-campos",
+      "aliases": [
+        "Granja de Moreruela (La)",
+        "La Granja de Moreruela"
+      ]
+    },
+    {
+      "id": "49092",
+      "name": "Granucillo",
+      "comarcaId": "benavente-valles",
+      "aliases": [
+        "Granucillo de Vidriales"
+      ]
+    },
+    {
+      "id": "49093",
+      "name": "Guarrate",
+      "comarcaId": "guarena",
+      "aliases": []
+    },
+    {
+      "id": "49094",
+      "name": "Hermisende",
+      "comarcaId": "sanabria",
+      "aliases": []
+    },
+    {
+      "id": "49095",
+      "name": "La Hiniesta",
+      "comarcaId": "tierra-pan",
+      "aliases": [
+        "Hiniesta (La)"
+      ]
+    },
+    {
+      "id": "49096",
+      "name": "Jambrina",
+      "comarcaId": "tierra-vino",
+      "aliases": []
+    },
+    {
+      "id": "49097",
+      "name": "Justel",
+      "comarcaId": "carballeda",
+      "aliases": []
+    },
+    {
+      "id": "49098",
+      "name": "Losacino",
+      "comarcaId": "tierra-alba",
+      "aliases": []
+    },
+    {
+      "id": "49099",
+      "name": "Losacio",
+      "comarcaId": "tierra-alba",
+      "aliases": []
+    },
+    {
+      "id": "49100",
+      "name": "Lubián",
+      "comarcaId": "sanabria",
+      "aliases": []
+    },
+    {
+      "id": "49101",
+      "name": "Luelmo",
+      "comarcaId": "sayago",
+      "aliases": [
+        "Luelmo de Sayago"
+      ]
+    },
+    {
+      "id": "49102",
+      "name": "El Maderal",
+      "comarcaId": "guarena",
+      "aliases": [
+        "Maderal (El)"
+      ]
+    },
+    {
+      "id": "49103",
+      "name": "Madridanos",
+      "comarcaId": "tierra-vino",
+      "aliases": []
+    },
+    {
+      "id": "49104",
+      "name": "Mahide",
+      "comarcaId": "aliste",
+      "aliases": [
+        "Mahíde"
+      ]
+    },
+    {
+      "id": "49105",
+      "name": "Maire de Castroponce",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49107",
+      "name": "Malva",
+      "comarcaId": "toro",
+      "aliases": []
+    },
+    {
+      "id": "49108",
+      "name": "Manganeses de la Lampreana",
+      "comarcaId": "tierra-pan",
+      "aliases": []
+    },
+    {
+      "id": "49109",
+      "name": "Manganeses de la Polvorosa",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49110",
+      "name": "Manzanal de Arriba",
+      "comarcaId": "carballeda",
+      "aliases": []
+    },
+    {
+      "id": "49111",
+      "name": "Manzanal del Barco",
+      "comarcaId": "tierra-alba",
+      "aliases": []
+    },
+    {
+      "id": "49112",
+      "name": "Manzanal de los Infantes",
+      "comarcaId": "carballeda",
+      "aliases": []
+    },
+    {
+      "id": "49113",
+      "name": "Matilla de Arzón",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49114",
+      "name": "Matilla la Seca",
+      "comarcaId": "toro",
+      "aliases": []
+    },
+    {
+      "id": "49115",
+      "name": "Mayalde",
+      "comarcaId": "sayago",
+      "aliases": []
+    },
+    {
+      "id": "49116",
+      "name": "Melgar de Tera",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49117",
+      "name": "Micereces de Tera",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49118",
+      "name": "Milles de la Polvorosa",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49119",
+      "name": "Molacillos",
+      "comarcaId": "tierra-pan",
+      "aliases": []
+    },
+    {
+      "id": "49120",
+      "name": "Molezuelas de la Carballeda",
+      "comarcaId": "carballeda",
+      "aliases": []
+    },
+    {
+      "id": "49121",
+      "name": "Mombuey",
+      "comarcaId": "carballeda",
+      "aliases": []
+    },
+    {
+      "id": "49122",
+      "name": "Monfarracinos",
+      "comarcaId": "tierra-pan",
+      "aliases": []
+    },
+    {
+      "id": "49123",
+      "name": "Montamarta",
+      "comarcaId": "tierra-pan",
+      "aliases": []
+    },
+    {
+      "id": "49124",
+      "name": "Moral de Sayago",
+      "comarcaId": "sayago",
+      "aliases": []
+    },
+    {
+      "id": "49125",
+      "name": "Moraleja del Vino",
+      "comarcaId": "tierra-vino",
+      "aliases": []
+    },
+    {
+      "id": "49126",
+      "name": "Moraleja de Sayago",
+      "comarcaId": "sayago",
+      "aliases": []
+    },
+    {
+      "id": "49127",
+      "name": "Morales del Vino",
+      "comarcaId": "tierra-vino",
+      "aliases": []
+    },
+    {
+      "id": "49128",
+      "name": "Morales de Rey",
+      "comarcaId": "benavente-valles",
+      "aliases": [
+        "Morales del Rey"
+      ]
+    },
+    {
+      "id": "49129",
+      "name": "Morales de Toro",
+      "comarcaId": "toro",
+      "aliases": []
+    },
+    {
+      "id": "49130",
+      "name": "Morales de Valverde",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49131",
+      "name": "Moralina",
+      "comarcaId": "sayago",
+      "aliases": [
+        "Moralina de Sayago"
+      ]
+    },
+    {
+      "id": "49132",
+      "name": "Moreruela de los Infanzones",
+      "comarcaId": "tierra-pan",
+      "aliases": []
+    },
+    {
+      "id": "49133",
+      "name": "Moreruela de Tábara",
+      "comarcaId": "tabara",
+      "aliases": []
+    },
+    {
+      "id": "49134",
+      "name": "Muelas de los Caballeros",
+      "comarcaId": "carballeda",
+      "aliases": []
+    },
+    {
+      "id": "49135",
+      "name": "Muelas del Pan",
+      "comarcaId": "tierra-pan",
+      "aliases": []
+    },
+    {
+      "id": "49136",
+      "name": "Muga de Sayago",
+      "comarcaId": "sayago",
+      "aliases": []
+    },
+    {
+      "id": "49137",
+      "name": "Navianos de Valverde",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49138",
+      "name": "Olmillos de Castro",
+      "comarcaId": "tierra-alba",
+      "aliases": []
+    },
+    {
+      "id": "49139",
+      "name": "Otero de Bodas",
+      "comarcaId": "carballeda",
+      "aliases": []
+    },
+    {
+      "id": "49141",
+      "name": "Pajares de la Lampreana",
+      "comarcaId": "tierra-pan",
+      "aliases": []
+    },
+    {
+      "id": "49142",
+      "name": "Palacios del Pan",
+      "comarcaId": "tierra-pan",
+      "aliases": []
+    },
+    {
+      "id": "49143",
+      "name": "Palacios de Sanabria",
+      "comarcaId": "sanabria",
+      "aliases": []
+    },
+    {
+      "id": "49145",
+      "name": "Pedralba de la Pradería",
+      "comarcaId": "sanabria",
+      "aliases": []
+    },
+    {
+      "id": "49146",
+      "name": "El Pego",
+      "comarcaId": "guarena",
+      "aliases": [
+        "Pego (El)"
+      ]
+    },
+    {
+      "id": "49147",
+      "name": "Peleagonzalo",
+      "comarcaId": "toro",
+      "aliases": []
+    },
+    {
+      "id": "49148",
+      "name": "Peleas de Abajo",
+      "comarcaId": "tierra-vino",
+      "aliases": []
+    },
+    {
+      "id": "49149",
+      "name": "Peñausende",
+      "comarcaId": "sayago",
+      "aliases": []
+    },
+    {
+      "id": "49150",
+      "name": "Peque",
+      "comarcaId": "carballeda",
+      "aliases": []
+    },
+    {
+      "id": "49151",
+      "name": "El Perdigón",
+      "comarcaId": "tierra-vino",
+      "aliases": [
+        "Perdigón (El)"
+      ]
+    },
+    {
+      "id": "49152",
+      "name": "Pereruela",
+      "comarcaId": "sayago",
+      "aliases": []
+    },
+    {
+      "id": "49153",
+      "name": "Perilla de Castro",
+      "comarcaId": "tierra-alba",
+      "aliases": []
+    },
+    {
+      "id": "49154",
+      "name": "Pías",
+      "comarcaId": "sanabria",
+      "aliases": []
+    },
+    {
+      "id": "49155",
+      "name": "Piedrahita de Castro",
+      "comarcaId": "tierra-pan",
+      "aliases": []
+    },
+    {
+      "id": "49156",
+      "name": "Pinilla de Toro",
+      "comarcaId": "toro",
+      "aliases": []
+    },
+    {
+      "id": "49157",
+      "name": "Pino del Oro",
+      "comarcaId": "aliste",
+      "aliases": []
+    },
+    {
+      "id": "49158",
+      "name": "El Piñero",
+      "comarcaId": "tierra-vino",
+      "aliases": [
+        "Piñero (El)"
+      ]
+    },
+    {
+      "id": "49159",
+      "name": "Pobladura del Valle",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49160",
+      "name": "Pobladura de Valderaduey",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49162",
+      "name": "Porto",
+      "comarcaId": "sanabria",
+      "aliases": [
+        "Porto de Sanabria"
+      ]
+    },
+    {
+      "id": "49163",
+      "name": "Pozoantiguo",
+      "comarcaId": "toro",
+      "aliases": []
+    },
+    {
+      "id": "49164",
+      "name": "Pozuelo de Tábara",
+      "comarcaId": "tabara",
+      "aliases": []
+    },
+    {
+      "id": "49165",
+      "name": "Prado",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49166",
+      "name": "Puebla de Sanabria",
+      "comarcaId": "sanabria",
+      "aliases": []
+    },
+    {
+      "id": "49167",
+      "name": "Pueblica de Valverde",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49168",
+      "name": "Quintanilla del Monte",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49169",
+      "name": "Quintanilla del Olmo",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49170",
+      "name": "Quintanilla de Urz",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49171",
+      "name": "Quiruelas de Vidriales",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49172",
+      "name": "Rabanales",
+      "comarcaId": "aliste",
+      "aliases": []
+    },
+    {
+      "id": "49173",
+      "name": "Rábano de Aliste",
+      "comarcaId": "aliste",
+      "aliases": []
+    },
+    {
+      "id": "49174",
+      "name": "Requejo",
+      "comarcaId": "sanabria",
+      "aliases": [
+        "Requejo de Sanabria"
+      ]
+    },
+    {
+      "id": "49175",
+      "name": "Revellinos",
+      "comarcaId": "tierra-campos",
+      "aliases": [
+        "Revellinos de Campos"
+      ]
+    },
+    {
+      "id": "49176",
+      "name": "Riofrío de Aliste",
+      "comarcaId": "aliste",
+      "aliases": []
+    },
+    {
+      "id": "49177",
+      "name": "Rionegro del Puente",
+      "comarcaId": "carballeda",
+      "aliases": []
+    },
+    {
+      "id": "49178",
+      "name": "Roales",
+      "comarcaId": "tierra-pan",
+      "aliases": [
+        "Roales del Pan"
+      ]
+    },
+    {
+      "id": "49179",
+      "name": "Robleda-Cervantes",
+      "comarcaId": "sanabria",
+      "aliases": [
+        "Robleda - Cervantes"
+      ]
+    },
+    {
+      "id": "49180",
+      "name": "Roelos de Sayago",
+      "comarcaId": "sayago",
+      "aliases": [
+        "Roelos"
+      ]
+    },
+    {
+      "id": "49181",
+      "name": "Rosinos de la Requejada",
+      "comarcaId": "sanabria",
+      "aliases": []
+    },
+    {
+      "id": "49183",
+      "name": "Salce",
+      "comarcaId": "sayago",
+      "aliases": [
+        "Salce de Sayago"
+      ]
+    },
+    {
+      "id": "49184",
+      "name": "Samir de los Caños",
+      "comarcaId": "aliste",
+      "aliases": []
+    },
+    {
+      "id": "49185",
+      "name": "San Agustín del Pozo",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49186",
+      "name": "San Cebrián de Castro",
+      "comarcaId": "tierra-pan",
+      "aliases": []
+    },
+    {
+      "id": "49187",
+      "name": "San Cristóbal de Entreviñas",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49188",
+      "name": "San Esteban del Molar",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49189",
+      "name": "San Justo",
+      "comarcaId": "sanabria",
+      "aliases": []
+    },
+    {
+      "id": "49190",
+      "name": "San Martín de Valderaduey",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49191",
+      "name": "San Miguel de la Ribera",
+      "comarcaId": "guarena",
+      "aliases": []
+    },
+    {
+      "id": "49192",
+      "name": "San Miguel del Valle",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49193",
+      "name": "San Pedro de Ceque",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49194",
+      "name": "San Pedro de la Nave-Almendra",
+      "comarcaId": "tierra-pan",
+      "aliases": []
+    },
+    {
+      "id": "49197",
+      "name": "Santa Clara de Avedillo",
+      "comarcaId": "tierra-vino",
+      "aliases": []
+    },
+    {
+      "id": "49199",
+      "name": "Santa Colomba de las Monjas",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49200",
+      "name": "Santa Cristina de la Polvorosa",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49201",
+      "name": "Santa Croya de Tera",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49202",
+      "name": "Santa Eufemia del Barco",
+      "comarcaId": "tierra-alba",
+      "aliases": []
+    },
+    {
+      "id": "49203",
+      "name": "Santa María de la Vega",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49204",
+      "name": "Santa María de Valverde",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49205",
+      "name": "Santibáñez de Tera",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49206",
+      "name": "Santibáñez de Vidriales",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49207",
+      "name": "Santovenia",
+      "comarcaId": "benavente-valles",
+      "aliases": [
+        "Santovenia del Esla"
+      ]
+    },
+    {
+      "id": "49208",
+      "name": "San Vicente de la Cabeza",
+      "comarcaId": "aliste",
+      "aliases": []
+    },
+    {
+      "id": "49209",
+      "name": "San Vitero",
+      "comarcaId": "aliste",
+      "aliases": []
+    },
+    {
+      "id": "49210",
+      "name": "Sanzoles",
+      "comarcaId": "tierra-vino",
+      "aliases": []
+    },
+    {
+      "id": "49214",
+      "name": "Tábara",
+      "comarcaId": "tabara",
+      "aliases": []
+    },
+    {
+      "id": "49216",
+      "name": "Tapioles",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49219",
+      "name": "Toro",
+      "comarcaId": "toro",
+      "aliases": []
+    },
+    {
+      "id": "49220",
+      "name": "La Torre del Valle",
+      "comarcaId": "benavente-valles",
+      "aliases": [
+        "Torre del Valle (La)"
+      ]
+    },
+    {
+      "id": "49221",
+      "name": "Torregamones",
+      "comarcaId": "sayago",
+      "aliases": []
+    },
+    {
+      "id": "49222",
+      "name": "Torres del Carrizal",
+      "comarcaId": "tierra-pan",
+      "aliases": []
+    },
+    {
+      "id": "49223",
+      "name": "Trabazos",
+      "comarcaId": "aliste",
+      "aliases": []
+    },
+    {
+      "id": "49224",
+      "name": "Trefacio",
+      "comarcaId": "sanabria",
+      "aliases": []
+    },
+    {
+      "id": "49225",
+      "name": "Uña de Quintana",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49226",
+      "name": "Vadillo de la Guareña",
+      "comarcaId": "guarena",
+      "aliases": []
+    },
+    {
+      "id": "49227",
+      "name": "Valcabado",
+      "comarcaId": "tierra-pan",
+      "aliases": [
+        "Valcabado del Pan"
+      ]
+    },
+    {
+      "id": "49228",
+      "name": "Valdefinjas",
+      "comarcaId": "toro",
+      "aliases": []
+    },
+    {
+      "id": "49229",
+      "name": "Valdescorriel",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49230",
+      "name": "Vallesa de la Guareña",
+      "comarcaId": "guarena",
+      "aliases": []
+    },
+    {
+      "id": "49231",
+      "name": "Vega de Tera",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49232",
+      "name": "Vega de Villalobos",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49233",
+      "name": "Vegalatrave",
+      "comarcaId": "tierra-alba",
+      "aliases": []
+    },
+    {
+      "id": "49234",
+      "name": "Venialbo",
+      "comarcaId": "toro",
+      "aliases": []
+    },
+    {
+      "id": "49235",
+      "name": "Vezdemarbán",
+      "comarcaId": "toro",
+      "aliases": []
+    },
+    {
+      "id": "49236",
+      "name": "Vidayanes",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49237",
+      "name": "Videmala",
+      "comarcaId": "aliste",
+      "aliases": []
+    },
+    {
+      "id": "49238",
+      "name": "Villabrázaro",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49239",
+      "name": "Villabuena del Puente",
+      "comarcaId": "guarena",
+      "aliases": []
+    },
+    {
+      "id": "49240",
+      "name": "Villadepera",
+      "comarcaId": "sayago",
+      "aliases": []
+    },
+    {
+      "id": "49241",
+      "name": "Villaescusa",
+      "comarcaId": "guarena",
+      "aliases": []
+    },
+    {
+      "id": "49242",
+      "name": "Villafáfila",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49243",
+      "name": "Villaferrueña",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49244",
+      "name": "Villageriz",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49245",
+      "name": "Villalazán",
+      "comarcaId": "tierra-vino",
+      "aliases": []
+    },
+    {
+      "id": "49246",
+      "name": "Villalba de la Lampreana",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49247",
+      "name": "Villalcampo",
+      "comarcaId": "aliste",
+      "aliases": []
+    },
+    {
+      "id": "49248",
+      "name": "Villalobos",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49249",
+      "name": "Villalonso",
+      "comarcaId": "toro",
+      "aliases": []
+    },
+    {
+      "id": "49250",
+      "name": "Villalpando",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49251",
+      "name": "Villalube",
+      "comarcaId": "toro",
+      "aliases": []
+    },
+    {
+      "id": "49252",
+      "name": "Villamayor de Campos",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49255",
+      "name": "Villamor de los Escuderos",
+      "comarcaId": "guarena",
+      "aliases": []
+    },
+    {
+      "id": "49256",
+      "name": "Villanázar",
+      "comarcaId": "benavente-valles",
+      "aliases": [
+        "Villanázar de Valverde"
+      ]
+    },
+    {
+      "id": "49257",
+      "name": "Villanueva de Azoague",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49258",
+      "name": "Villanueva de Campeán",
+      "comarcaId": "tierra-vino",
+      "aliases": []
+    },
+    {
+      "id": "49259",
+      "name": "Villanueva de las Peras",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49260",
+      "name": "Villanueva del Campo",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49261",
+      "name": "Villaralbo",
+      "comarcaId": "tierra-vino",
+      "aliases": []
+    },
+    {
+      "id": "49262",
+      "name": "Villardeciervos",
+      "comarcaId": "carballeda",
+      "aliases": []
+    },
+    {
+      "id": "49263",
+      "name": "Villar de Fallaves",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49264",
+      "name": "Villar del Buey",
+      "comarcaId": "sayago",
+      "aliases": []
+    },
+    {
+      "id": "49265",
+      "name": "Villardiegua de la Ribera",
+      "comarcaId": "sayago",
+      "aliases": []
+    },
+    {
+      "id": "49266",
+      "name": "Villárdiga",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49267",
+      "name": "Villardondiego",
+      "comarcaId": "toro",
+      "aliases": []
+    },
+    {
+      "id": "49268",
+      "name": "Villarrín de Campos",
+      "comarcaId": "tierra-campos",
+      "aliases": []
+    },
+    {
+      "id": "49269",
+      "name": "Villaseco del Pan",
+      "comarcaId": "tierra-pan",
+      "aliases": []
+    },
+    {
+      "id": "49270",
+      "name": "Villavendimio",
+      "comarcaId": "toro",
+      "aliases": []
+    },
+    {
+      "id": "49271",
+      "name": "Villaveza del Agua",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49272",
+      "name": "Villaveza de Valverde",
+      "comarcaId": "benavente-valles",
+      "aliases": []
+    },
+    {
+      "id": "49273",
+      "name": "Viñas",
+      "comarcaId": "aliste",
+      "aliases": [
+        "Viñas de Aliste"
+      ]
+    },
+    {
+      "id": "49275",
+      "name": "Zamora",
+      "comarcaId": "tierra-pan",
+      "aliases": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "ign",
+      "name": "Instituto Geográfico Nacional · API-Features · Unidades administrativas",
+      "url": "https://api-features.ign.es/collections/administrativeunit/items?f=json&codnut3=ES419&nationallevelname=Municipio&limit=1000",
+      "metadataUrl": "https://api-features.ign.es/collections/administrativeunit?f=html",
+      "retrievedAt": "2026-11-12",
+      "sourceTimestamp": "2026-11-12T15:30:50.293306Z",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+      "sha256": "81774a0c32cf51a20d6dec0bd5801ea417625bb84bee4494dd695b1ad5e64cca",
+      "use": "Geometrías y nombres de los 248 municipios; código INE a partir de nationalcode."
+    },
+    {
+      "id": "wikipedia",
+      "name": "Wikipedia · Anexo:Comarcas de la provincia de Zamora",
+      "url": "https://es.wikipedia.org/wiki/Anexo:Comarcas_de_la_provincia_de_Zamora",
+      "permanentUrl": "https://es.wikipedia.org/w/index.php?title=Anexo:Comarcas_de_la_provincia_de_Zamora&oldid=172307624",
+      "revisionId": 172307624,
+      "revisionTimestamp": "2026-03-02T10:35:00Z",
+      "retrievedAt": "2026-11-12",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Colaboradores de Wikipedia, Anexo:Comarcas de la provincia de Zamora, revisión 172307624.",
+      "sha256Html": "90d2372d31eae11df45a27e7ea6e7d25414b2969fdf0c8b04198219a510d43ba",
+      "use": "248 pares municipio–comarca de los listados de las doce secciones; se excluyen los anejos entre paréntesis.",
+      "extractSha256": "a6e680abffeeb7252a2f6345e4d13cbae2d3688d2ace0bcd08d773b22d0d4715"
+    },
+    {
+      "id": "jcyl",
+      "name": "Junta de Castilla y León · Registro de municipios",
+      "url": "https://analisis.datosabiertos.jcyl.es/api/explore/v2.1/catalog/datasets/registro-de-municipios-de-castilla-y-leon/exports/json?where=provincia%3D%22ZAMORA%22",
+      "retrievedAt": "2026-11-12",
+      "sha256": "8ee122bc592f9fe40b60b7675a0a97b0fd8c1ee115f17c329a51f170f3896a1e",
+      "license": "CC BY 4.0 ES",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.es_ES",
+      "use": "Validación independiente de los 248 códigos INE; no se usa para asignar comarcas."
+    },
+    {
+      "id": "municipal-name-aliases",
+      "name": "Variantes municipales conservadas de la edición inicial",
+      "url": "https://www.diputaciondezamora.es/opencms/provincia/nuestros-ayuntamientos/",
+      "extractSha256": "5ed02e674cd51d9af60d241d7e61a1262924c4652880bf78c3b6002110646b2a",
+      "use": "Solo alias municipales. Ninguna adscripción comarcal de Diputación se usa en esta edición."
+    }
+  ]
+}
