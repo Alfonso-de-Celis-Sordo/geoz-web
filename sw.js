@@ -1,13 +1,13 @@
 /* GeoZ service-worker source. scripts/build-sw.mjs injects the build manifest.
- * No skipWaiting: a new version must not replace a game already in progress.
+ * Publish a complete shell promptly. The app defers page reloads until its menu.
  */
 'use strict';
 
-const BUILD_VERSION = 'ae0c5ae432c397d32ec9';
+const BUILD_VERSION = '6be5b3c278a23752fa14';
 const APP_BASE = "/geoz-web/";
 const PRECACHE_URLS = [
-  "/geoz-web/assets/index-CC2xtf6c.js",
   "/geoz-web/assets/index-Ck2NySOv.css",
+  "/geoz-web/assets/index-D_W4UtqE.js",
   "/geoz-web/assets/photos/credits.json",
   "/geoz-web/assets/photos/tera-valles.credit.json",
   "/geoz-web/data/catalog.json",
@@ -55,21 +55,65 @@ self.addEventListener('install', (event) => {
       await caches.delete(CORE_CACHE);
       throw error;
     }
+    // Older installed clients do not implement an update handshake. Activate
+    // after the complete precache so their next navigation gets the new shell.
+    // This does not navigate/reload their documents or interrupt their game.
+    await self.skipWaiting();
   })());
 });
 
+async function pruneUnusedCaches(excludedClientIds = []) {
+  const clients = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
+  // Keep every older release while another window might still need its assets.
+  // A solo navigation can discard them; neither nick nor game data is cached here.
+  if (clients.some(client => !excludedClientIds.includes(client.id) &&
+    new URL(client.url).origin === self.location.origin &&
+    new URL(client.url).pathname.startsWith(APP_BASE))) return;
+  const names = await caches.keys();
+  const current = names.indexOf(CORE_CACHE);
+  if (current < 0) return;
+  // Never delete the cache of a newer worker still installing beside this one.
+  const older = names.slice(0, current).filter(name => name.startsWith(`${CACHE_PREFIX}core-`));
+  await Promise.all(older.flatMap(name => [name, name.replace(`${CACHE_PREFIX}core-`, `${CACHE_PREFIX}photos-`)])
+    .map(name => caches.delete(name)));
+}
+
 self.addEventListener('activate', (event) => {
   event.waitUntil((async () => {
-    const keep = new Set([CORE_CACHE, PHOTO_CACHE]);
-    const names = await caches.keys();
-    await Promise.all(names.filter((name) =>
-      name.startsWith(CACHE_PREFIX) && !keep.has(name),
-    ).map((name) => caches.delete(name)));
-    // Activation happens after older controlled windows have closed, so claiming
-    // clients cannot hot-swap a newer release into an old running game.
+    await pruneUnusedCaches();
     await self.clients.claim();
   })());
 });
+
+self.addEventListener('message', (event) => {
+  const script = event.data?.script;
+  if (event.data?.type !== 'GEOZ_VERSION' || typeof script !== 'string' ||
+    !script.startsWith(`${APP_BASE}assets/`) || !script.endsWith('.js')) return;
+  event.waitUntil((async () => {
+    // A network-loaded page can be newer than its controller. Only reload a
+    // bundle positively identified in a previous release, never downgrade it.
+    const names = await caches.keys();
+    const current = names.indexOf(CORE_CACHE);
+    let outdated = false;
+    if (!CORE_PATHS.has(script) && current >= 0) {
+      for (const name of names.slice(0, current)) {
+        if (name.startsWith(`${CACHE_PREFIX}core-`) && await (await caches.open(name)).match(script)) {
+          outdated = true; break;
+        }
+      }
+    }
+    event.source?.postMessage({ type: 'GEOZ_VERSION', script, outdated });
+  })());
+});
+
+async function previousAssetResponse(request, pathname) {
+  for (const name of (await caches.keys()).reverse()) {
+    if (!name.startsWith(`${CACHE_PREFIX}core-`) || name === CORE_CACHE) continue;
+    const cached = await (await caches.open(name)).match(pathname);
+    if (cached) return cached;
+  }
+  return fetch(request);
+}
 
 async function coreResponse(request, pathname) {
   const cache = await caches.open(CORE_CACHE);
@@ -112,11 +156,17 @@ self.addEventListener('fetch', (event) => {
     if (url.pathname === APP_BASE || url.pathname === INDEX_URL) {
       // One HTML/assets version stays together until the next worker activates.
       event.respondWith(coreResponse(request, INDEX_URL));
+      event.waitUntil(pruneUnusedCaches([event.clientId, event.resultingClientId]));
     }
     return;
   }
   if (CORE_PATHS.has(url.pathname)) {
     event.respondWith(coreResponse(request, url.pathname));
+    return;
+  }
+  // Content-hashed bundles belonging to an already open older page remain usable.
+  if (/^assets\/[^/]+\.(?:js|css|woff2?)$/.test(appPath)) {
+    event.respondWith(previousAssetResponse(request, url.pathname));
     return;
   }
   if (/^assets\/photos\/[^/]+\.(?:jpe?g|png|webp|avif)$/i.test(appPath)) {
