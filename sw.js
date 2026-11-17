@@ -3,11 +3,13 @@
  */
 'use strict';
 
-const BUILD_VERSION = 'a84c83170b4974f84208';
+const BUILD_VERSION = '6c954ecd569bd95ba1e4';
 const APP_BASE = "/geoz-web/";
 const PRECACHE_URLS = [
-  "/geoz-web/assets/index-CmmlWQjv.css",
-  "/geoz-web/assets/index-Cy4X0S-n.js",
+  "/geoz-web/art/viriato-cartoon.png",
+  "/geoz-web/art/zeta-adventurer-sprites.png",
+  "/geoz-web/assets/index-C0pSwYGc.js",
+  "/geoz-web/assets/index-skz4Iat9.css",
   "/geoz-web/assets/photos/credits.json",
   "/geoz-web/assets/photos/tera-valles.credit.json",
   "/geoz-web/data/catalog.json",
