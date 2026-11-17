@@ -3,16 +3,19 @@
  */
 'use strict';
 
-const BUILD_VERSION = '02d8320b054e8ff0f922';
+const BUILD_VERSION = '072e05b0e004541a5a9f';
 const APP_BASE = "/geoz-web/";
 const PRECACHE_URLS = [
-  "/geoz-web/assets/index-BdsfToj8.css",
-  "/geoz-web/assets/index-McGvDany.js",
+  "/geoz-web/assets/index-BACs7mW2.js",
+  "/geoz-web/assets/index-CmmlWQjv.css",
   "/geoz-web/assets/photos/credits.json",
   "/geoz-web/assets/photos/tera-valles.credit.json",
   "/geoz-web/data/catalog.json",
   "/geoz-web/data/comarcas.geojson",
+  "/geoz-web/data/explore-neighbors.json",
+  "/geoz-web/data/explore-places.json",
   "/geoz-web/data/LICENSE.txt",
+  "/geoz-web/data/physical.geojson",
   "/geoz-web/data/sources.json",
   "/geoz-web/data/territories.geojson",
   "/geoz-web/icons/apple-touch-icon.png",

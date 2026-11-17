@@ -1,0 +1,424 @@
+[
+  {
+    "id": "sanabria-lago",
+    "name": "Lago de Sanabria",
+    "kind": "water",
+    "featureId": "sanabria-lago",
+    "lon": -6.715891,
+    "lat": 42.122026,
+    "prompt": "Un lago entre montañas",
+    "clues": [
+      "Estoy en el noroeste de Zamora.",
+      "El hielo excavó mi cubeta hace miles de años.",
+      "Comparto nombre con la comarca de Sanabria."
+    ],
+    "fact": "El lago conserva la huella de los glaciares que modelaron estas montañas.",
+    "sources": [
+      "https://www.ign.es/web/seccion-hidrografia",
+      "https://turismoenzamora.es/patrimonio-natural/sanabria/"
+    ],
+    "photo": "/assets/photos/sanabria.jpg"
+  },
+  {
+    "id": "duero",
+    "name": "Río Duero",
+    "kind": "river",
+    "featureId": "duero",
+    "lon": -5.825735,
+    "lat": 41.482507,
+    "prompt": "El gran río de Zamora",
+    "clues": [
+      "Cruzo la provincia de este a oeste.",
+      "Paso por Toro y por Zamora.",
+      "Excavo los Arribes junto a Portugal."
+    ],
+    "fact": "Los Arribes son el profundo cañón que el Duero ha abierto en el granito.",
+    "sources": [
+      "https://www.ign.es/web/seccion-hidrografia",
+      "https://turismoenzamora.es/naturaleza/"
+    ],
+    "photo": "/assets/photos/sayago.jpg"
+  },
+  {
+    "id": "salina-grande",
+    "name": "Laguna Salina Grande",
+    "kind": "water",
+    "featureId": "salina-grande",
+    "lon": -5.60172,
+    "lat": 41.831114,
+    "prompt": "Agua en Tierra de Campos",
+    "clues": [
+      "Búscame entre llanuras de cereal.",
+      "Soy una laguna salina y estacional.",
+      "Estoy junto a Villafáfila y mi nombre contiene «Grande»."
+    ],
+    "fact": "Las lagunas de Villafáfila cambian con las estaciones y acogen numerosas aves acuáticas.",
+    "sources": [
+      "https://www.ign.es/web/seccion-hidrografia",
+      "https://patrimonionatural.org/espacios-naturales/reserva-natural/reserva-natural-lagunas-de-villafafila"
+    ],
+    "photo": "/assets/photos/tierra-campos.jpg"
+  },
+  {
+    "id": "culebra",
+    "name": "Sierra de la Culebra",
+    "kind": "mountain",
+    "featureId": "culebra",
+    "lon": -6.395326,
+    "lat": 41.91449,
+    "prompt": "Una sierra con nombre de animal",
+    "clues": [
+      "Estoy en el oeste de la provincia.",
+      "El río Aliste nace en mis montes.",
+      "Mi nombre recuerda a un reptil."
+    ],
+    "fact": "La Sierra de la Culebra es uno de los paisajes zamoranos asociados al lobo ibérico.",
+    "sources": [
+      "https://api-features.ign.es/collections/namedplace/items?f=json&etiqueta=Sierra+de+la+Culebra&limit=20",
+      "https://turismoenzamora.es/patrimonio-natural/sierra-de-la-culebra/"
+    ]
+  },
+  {
+    "id": "esla",
+    "name": "Río Esla",
+    "kind": "river",
+    "featureId": "esla",
+    "lon": -5.870046,
+    "lat": 41.67596,
+    "prompt": "Un río que viene del norte",
+    "clues": [
+      "Mi recorrido zamorano baja desde el norte.",
+      "Mis aguas se ensanchan en Ricobayo.",
+      "Me uno al Duero en Villalcampo."
+    ],
+    "fact": "El Órbigo, el Tera y el Cea aportan sus aguas al Esla.",
+    "sources": [
+      "https://www.ign.es/web/seccion-hidrografia",
+      "https://www.chduero.es/la-cuenca-del-duero"
+    ]
+  },
+  {
+    "id": "tera",
+    "name": "Río Tera",
+    "kind": "river",
+    "featureId": "tera",
+    "lon": -6.546481,
+    "lat": 42.018721,
+    "prompt": "De Sanabria a los valles",
+    "clues": [
+      "Recorro el noroeste de Zamora.",
+      "Paso por Cernadilla y Valparaíso.",
+      "Conecto el lago de Sanabria con el Esla."
+    ],
+    "fact": "El Tera enlaza la montaña sanabresa con los valles del norte de la provincia.",
+    "sources": [
+      "https://www.ign.es/web/seccion-hidrografia",
+      "https://www.chduero.es/la-cuenca-del-duero",
+      "https://www.iberdrolaespana.com/conocenos/lineas-negocios/energia-hidroelectrica/cuenca-tera"
+    ]
+  },
+  {
+    "id": "ricobayo",
+    "name": "Embalse de Ricobayo",
+    "kind": "water",
+    "featureId": "ricobayo",
+    "lon": -5.870656,
+    "lat": 41.67531,
+    "prompt": "El Esla se ensancha",
+    "clues": [
+      "Estoy al oeste de Zamora capital.",
+      "Soy un embalse de brazos alargados.",
+      "Me alimentan el Esla y el Aliste."
+    ],
+    "fact": "El Aliste desemboca en el Esla dentro del embalse de Ricobayo.",
+    "sources": [
+      "https://www.ign.es/web/seccion-hidrografia",
+      "https://www.chduero.es/la-cuenca-del-duero"
+    ]
+  },
+  {
+    "id": "segundera",
+    "name": "Sierra Segundera",
+    "kind": "mountain",
+    "featureId": "segundera",
+    "lon": -6.831786,
+    "lat": 42.190124,
+    "prompt": "Montañas del noroeste",
+    "clues": [
+      "Estoy en el extremo noroccidental zamorano.",
+      "A mi alrededor abundan las huellas de antiguos glaciares.",
+      "Soy una de las sierras que dan nombre al parque natural del lago de Sanabria."
+    ],
+    "fact": "La Sierra Segundera alberga lagunas, valles y formas de origen glaciar.",
+    "sources": [
+      "https://api-features.ign.es/collections/namedplace/items?f=json&etiqueta=Sierra+Segundera&limit=20",
+      "https://turismoenzamora.es/patrimonio-natural/sanabria/",
+      "https://info.igme.es/ielig/LIGInfo.aspx?codigo=CI034"
+    ]
+  },
+  {
+    "id": "peces",
+    "name": "Laguna de los Peces",
+    "kind": "water",
+    "featureId": "peces",
+    "lon": -6.729709,
+    "lat": 42.174629,
+    "prompt": "Una laguna en lo alto",
+    "clues": [
+      "Estoy al norte del lago de Sanabria.",
+      "Soy una laguna de montaña de origen glaciar.",
+      "Mi nombre habla de animales que viven en el agua."
+    ],
+    "fact": "La Laguna de los Peces forma parte del paisaje glaciar de la Sierra Segundera.",
+    "sources": [
+      "https://www.ign.es/web/seccion-hidrografia",
+      "https://info.igme.es/ielig/LIGInfo.aspx?codigo=CI034"
+    ]
+  },
+  {
+    "id": "cernadilla",
+    "name": "Embalse de Cernadilla",
+    "kind": "water",
+    "featureId": "cernadilla",
+    "lon": -6.483416,
+    "lat": 42.024262,
+    "prompt": "El primero de tres embalses",
+    "clues": [
+      "Estoy en el noroeste provincial.",
+      "Retengo aguas del Tera.",
+      "En el mapa me encuentras antes de Valparaíso siguiendo el río."
+    ],
+    "fact": "Cernadilla, Valparaíso y Agavanzal forman una cadena de embalses en el Tera.",
+    "sources": [
+      "https://www.ign.es/web/seccion-hidrografia",
+      "https://www.iberdrolaespana.com/conocenos/lineas-negocios/energia-hidroelectrica/cuenca-tera"
+    ]
+  },
+  {
+    "id": "valparaiso",
+    "name": "Embalse de Valparaíso",
+    "kind": "water",
+    "featureId": "valparaiso",
+    "lon": -6.288338,
+    "lat": 41.973765,
+    "prompt": "Entre dos embalses del Tera",
+    "clues": [
+      "Búscame al norte de la Sierra de la Culebra.",
+      "Mis aguas pertenecen al río Tera.",
+      "Estoy entre Cernadilla y Agavanzal."
+    ],
+    "fact": "Valparaíso ocupa el tramo intermedio de esta cadena de embalses del Tera.",
+    "sources": [
+      "https://www.ign.es/web/seccion-hidrografia",
+      "https://www.iberdrolaespana.com/conocenos/lineas-negocios/energia-hidroelectrica/cuenca-tera"
+    ]
+  },
+  {
+    "id": "agavanzal",
+    "name": "Embalse de Nuestra Señora del Agavanzal",
+    "kind": "water",
+    "featureId": "agavanzal",
+    "lon": -6.216324,
+    "lat": 41.983665,
+    "prompt": "El último de la cadena",
+    "clues": [
+      "Estoy al este de Valparaíso.",
+      "Mis aguas son las del Tera.",
+      "Mi nombre completo empieza por «Nuestra Señora»."
+    ],
+    "fact": "Agavanzal es el más oriental de los tres grandes embalses encadenados del Tera.",
+    "sources": [
+      "https://www.ign.es/web/seccion-hidrografia",
+      "https://www.iberdrolaespana.com/conocenos/lineas-negocios/energia-hidroelectrica/cuenca-tera"
+    ]
+  },
+  {
+    "id": "almendra",
+    "name": "Embalse de Almendra",
+    "kind": "water",
+    "featureId": "almendra",
+    "lon": -6.280155,
+    "lat": 41.253395,
+    "prompt": "Un gran embalse al sur",
+    "clues": [
+      "Búscame en el sur de la provincia.",
+      "Comparto aguas entre Zamora y Salamanca.",
+      "Estoy sobre el Tormes y tengo nombre de fruto seco."
+    ],
+    "fact": "El contorno de Almendra marca parte del paisaje que separa Sayago de Salamanca.",
+    "sources": [
+      "https://www.ign.es/web/seccion-hidrografia"
+    ]
+  },
+  {
+    "id": "tormes",
+    "name": "Río Tormes",
+    "kind": "river",
+    "featureId": "tormes",
+    "lon": -6.305993,
+    "lat": 41.268234,
+    "prompt": "Un río al sur de Sayago",
+    "clues": [
+      "Mi tramo zamorano está al sur.",
+      "Alimento el embalse de Almendra.",
+      "Me encuentro con el Duero junto a Fermoselle."
+    ],
+    "fact": "El Tormes llega al Duero después de recorrer la frontera sur de Sayago.",
+    "sources": [
+      "https://www.ign.es/web/seccion-hidrografia",
+      "https://www.chduero.es/la-cuenca-del-duero"
+    ]
+  },
+  {
+    "id": "aliste",
+    "name": "Río Aliste",
+    "kind": "river",
+    "featureId": "aliste",
+    "lon": -6.141925,
+    "lat": 41.715702,
+    "prompt": "El río de una comarca",
+    "clues": [
+      "Estoy en el oeste zamorano.",
+      "Nazco en la Sierra de la Culebra.",
+      "Llevo el mismo nombre que la comarca de Aliste."
+    ],
+    "fact": "El Aliste acaba su recorrido en el embalse de Ricobayo.",
+    "sources": [
+      "https://www.ign.es/web/seccion-hidrografia",
+      "https://www.chduero.es/la-cuenca-del-duero",
+      "https://turismoenzamora.es/patrimonio-natural/sierra-de-la-culebra/"
+    ]
+  },
+  {
+    "id": "manzanas",
+    "name": "Río Manzanas",
+    "kind": "river",
+    "featureId": "manzanas",
+    "lon": -6.53609,
+    "lat": 41.896974,
+    "prompt": "Un río junto a la raya",
+    "clues": [
+      "Estoy en el oeste de la provincia.",
+      "Parte de mi recorrido se acerca a Portugal.",
+      "Comparto nombre con una fruta, en plural."
+    ],
+    "fact": "El río Manzanas ayuda a orientarse en el paisaje occidental de Aliste.",
+    "sources": [
+      "https://www.ign.es/web/seccion-hidrografia"
+    ]
+  },
+  {
+    "id": "orbigo",
+    "name": "Río Órbigo",
+    "kind": "river",
+    "featureId": "orbigo",
+    "lon": -5.746001,
+    "lat": 42.053046,
+    "prompt": "Dos ríos se convierten en uno",
+    "clues": [
+      "Entro en Zamora desde el norte.",
+      "Mi recorrido pasa cerca de Benavente.",
+      "Me forman el Luna y el Omaña."
+    ],
+    "fact": "El Órbigo desemboca en el Esla en Villanueva de Azoague.",
+    "sources": [
+      "https://www.ign.es/web/seccion-hidrografia",
+      "https://www.chduero.es/la-cuenca-del-duero"
+    ]
+  },
+  {
+    "id": "eria",
+    "name": "Río Ería",
+    "kind": "river",
+    "featureId": "eria",
+    "lon": -5.876852,
+    "lat": 42.099867,
+    "prompt": "Un río del norte",
+    "clues": [
+      "Búscame en el norte de Zamora.",
+      "En el mapa avanzo hacia el Órbigo.",
+      "Me uno a él en Manganeses de la Polvorosa."
+    ],
+    "fact": "El Ería lleva aguas de la sierra del Teleno hasta el Órbigo.",
+    "sources": [
+      "https://www.ign.es/web/seccion-hidrografia",
+      "https://www.chduero.es/la-cuenca-del-duero"
+    ]
+  },
+  {
+    "id": "valderaduey",
+    "name": "Río Valderaduey",
+    "kind": "river",
+    "featureId": "valderaduey",
+    "lon": -5.459025,
+    "lat": 41.855032,
+    "prompt": "Un río que llega a la capital",
+    "clues": [
+      "Estoy en la mitad oriental de la provincia.",
+      "Recibo las aguas del Sequillo.",
+      "Desemboco en el Duero en Zamora capital."
+    ],
+    "fact": "El Valderaduey permite seguir el camino del agua desde las llanuras hasta el Duero.",
+    "sources": [
+      "https://www.ign.es/web/seccion-hidrografia",
+      "https://www.chduero.es/la-cuenca-del-duero"
+    ]
+  },
+  {
+    "id": "guarena",
+    "name": "Río Guareña",
+    "kind": "river",
+    "featureId": "guarena",
+    "lon": -5.36674,
+    "lat": 41.301817,
+    "prompt": "Del sureste al Duero",
+    "clues": [
+      "Mi recorrido zamorano está al sureste.",
+      "Mi nombre coincide con el de la comarca de La Guareña.",
+      "Me uno al Duero en el término de Toro."
+    ],
+    "fact": "El Guareña llega al Duero desde el sur.",
+    "sources": [
+      "https://www.ign.es/web/seccion-hidrografia",
+      "https://www.chduero.es/la-cuenca-del-duero"
+    ]
+  },
+  {
+    "id": "negro",
+    "name": "Río Negro",
+    "kind": "river",
+    "featureId": "negro",
+    "lon": -6.388954,
+    "lat": 42.065471,
+    "prompt": "Un río de la Carballeda",
+    "clues": [
+      "Estoy al norte del Tera.",
+      "Mi nombre es también un color.",
+      "Soy un afluente del Tera."
+    ],
+    "fact": "El río Negro aporta al Tera aguas de las montañas del norte.",
+    "sources": [
+      "https://www.ign.es/web/seccion-hidrografia",
+      "https://www.chduero.es/la-cuenca-del-duero"
+    ]
+  },
+  {
+    "id": "cabrera",
+    "name": "Sierra de la Cabrera",
+    "kind": "mountain",
+    "featureId": "cabrera",
+    "lon": -6.664611,
+    "lat": 42.208496,
+    "prompt": "La sierra que mira a León",
+    "clues": [
+      "Búscame en el norte montañoso de Zamora.",
+      "Estoy al este de la Sierra Segundera.",
+      "Marco el borde de Sanabria hacia León."
+    ],
+    "fact": "La Sierra de la Cabrera separa el paisaje sanabrés de las tierras leonesas.",
+    "sources": [
+      "https://api-features.ign.es/collections/namedplace/items?f=json&etiqueta=Sierra+de+la+Cabrera&limit=20",
+      "https://turismoenzamora.es/naturaleza/"
+    ]
+  }
+]
